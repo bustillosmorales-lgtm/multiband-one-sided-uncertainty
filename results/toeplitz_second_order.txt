@@ -1,0 +1,4 @@
+   [0,.4]u[.6,1]: kappa=0.4584 c_K=0.3846,0.3844  slope of diff vs sqrt(l): measured +0.710  predicted +1.163   diff n=2^8..2^16: -0.50 -0.27 -0.21 -0.15 -0.05 +0.04 +0.11 +0.18 +0.24
+ [0,.45]u[.55,1]: kappa=0.5714 c_K=0.5525,0.5522  slope of diff vs sqrt(l): measured +1.053  predicted +1.890   diff n=2^8..2^16: +0.09 +0.37 +0.57 +0.68 +0.78 +0.90 +1.00 +1.09 +1.18
+   [0,.7]u[.8,1]: kappa=0.8019 c_K=0.5055,0.5052  slope of diff vs sqrt(l): measured +0.466  predicted +1.168   diff n=2^8..2^16: +1.25 +1.39 +1.49 +1.53 +1.58 +1.63 +1.67 +1.70 +1.74
+          [0,.6]: kappa=0.6000 c_K=0.2502,0.2500  slope of diff vs sqrt(l): measured +0.064  predicted +0.000   diff n=2^8..2^16: -0.06 -0.06 -0.02 -0.00 -0.00 -0.00 -0.00 -0.00 -0.00

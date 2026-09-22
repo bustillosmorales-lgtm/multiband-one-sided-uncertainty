@@ -1,0 +1,27 @@
+kappa_1 = 1/(2 pi a*) = 1.38891
+
+one comp (x=.2)
+  omega=  2: Parseval=1.000000 mass=1.0000000 leak=2.6387e-01 m(Lambda)=2.6490e-01 rel.diff=-0.388%  D=2.513 <Lam+>=1.773  D-kappa_1<Lam+>=+0.0507  edge/max=1.3e-07
+  omega=  5: Parseval=1.000000 mass=1.0000000 leak=5.7751e-02 m(Lambda)=5.8115e-02 rel.diff=-0.627%  D=5.079 <Lam+>=3.586  D-kappa_1<Lam+>=+0.0988  edge/max=1.3e-07
+  omega= 10: Parseval=1.000000 mass=1.0000000 leak=8.3117e-04 m(Lambda)=8.4016e-04 rel.diff=-1.069%  D=10.001 <Lam+>=7.061  D-kappa_1<Lam+>=+0.1930  edge/max=1.3e-07
+  omega= 20: Parseval=1.000000 mass=1.0000000 leak=1.6252e-10 m(Lambda)=1.6585e-10 rel.diff=-2.008%  D=20.000 <Lam+>=14.122  D-kappa_1<Lam+>=+0.3860  edge/max=1.3e-07
+
+both comps
+  omega=  2: Parseval=1.000000 mass=1.0000000 leak=2.3952e-01 m(Lambda)=2.4083e-01 rel.diff=-0.546%  D=2.510 <Lam+>=1.758  D-kappa_1<Lam+>=+0.0675  edge/max=1.3e-07
+  omega=  5: Parseval=1.000000 mass=1.0000000 leak=5.8603e-02 m(Lambda)=5.9310e-02 rel.diff=-1.192%  D=5.077 <Lam+>=3.583  D-kappa_1<Lam+>=+0.1007  edge/max=1.3e-07
+  omega= 10: Parseval=1.000000 mass=1.0000000 leak=8.7878e-04 m(Lambda)=8.9621e-04 rel.diff=-1.944%  D=10.001 <Lam+>=7.061  D-kappa_1<Lam+>=+0.1932  edge/max=1.3e-07
+  omega= 20: Parseval=1.000000 mass=1.0000000 leak=1.9412e-10 m(Lambda)=2.0058e-10 rel.diff=-3.220%  D=20.000 <Lam+>=14.122  D-kappa_1<Lam+>=+0.3859  edge/max=1.3e-07
+
+random 4 bumps
+  omega=  2: Parseval=1.000000 mass=1.0000000 leak=4.1502e-01 m(Lambda)=4.1517e-01 rel.diff=-0.036%  D=3.326 <Lam+>=1.752  D-kappa_1<Lam+>=+0.8919  edge/max=1.5e-07
+  omega=  5: Parseval=1.000000 mass=1.0000000 leak=2.6845e-01 m(Lambda)=2.6893e-01 rel.diff=-0.180%  D=5.628 <Lam+>=2.980  D-kappa_1<Lam+>=+1.4884  edge/max=1.5e-07
+  omega= 10: Parseval=1.000000 mass=1.0000000 leak=1.1255e-01 m(Lambda)=1.1296e-01 rel.diff=-0.359%  D=8.632 <Lam+>=4.581  D-kappa_1<Lam+>=+2.2701  edge/max=1.5e-07
+  omega= 20: Parseval=1.000000 mass=1.0000000 leak=3.7679e-03 m(Lambda)=3.7741e-03 rel.diff=-0.162%  D=16.881 <Lam+>=9.021  D-kappa_1<Lam+>=+4.3515  edge/max=1.5e-07
+
+random phases 6 bumps
+  omega=  2: Parseval=1.000000 mass=1.0000000 leak=3.5484e-01 m(Lambda)=3.5625e-01 rel.diff=-0.395%  D=4.541 <Lam+>=2.775  D-kappa_1<Lam+>=+0.6871  edge/max=1.2e-07
+  omega=  5: Parseval=1.000000 mass=1.0000000 leak=2.3630e-01 m(Lambda)=2.3720e-01 rel.diff=-0.379%  D=7.412 <Lam+>=3.791  D-kappa_1<Lam+>=+2.1468  edge/max=1.7e-07
+  omega= 10: Parseval=1.000000 mass=1.0000000 leak=7.4630e-02 m(Lambda)=7.4974e-02 rel.diff=-0.459%  D=11.927 <Lam+>=6.892  D-kappa_1<Lam+>=+2.3552  edge/max=1.1e-07
+  omega= 20: Parseval=1.000000 mass=1.0000000 leak=5.2915e-04 m(Lambda)=5.2929e-04 rel.diff=-0.026%  D=26.338 <Lam+>=16.817  D-kappa_1<Lam+>=+2.9807  edge/max=8.9e-08
+
+worst relative difference leak vs int m dnu: 3.220%

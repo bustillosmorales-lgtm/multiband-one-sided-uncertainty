@@ -1,0 +1,17 @@
+x* = 0.209890, z0 = -0.606767, kappa(K) = 0.458359
+
+leak and first moment of the packets (delta = 1)
+  s0=1: leak 4.15585e-02  exact 4.15598e-02  rel.diff -3.00e-05 | first moment from F 2.080691  predicted 2.081513
+  s0=2: leak 3.74717e-04  exact 3.74771e-04  rel.diff -1.45e-04 | first moment from F 4.158952  predicted 4.163027
+  s0=3: leak 8.98784e-07  exact 8.99143e-07  rel.diff -4.00e-04 | first moment from F 6.231456  predicted 6.244540
+  s0=4: leak 1.68976e-09  exact 1.69096e-09  rel.diff -7.09e-04 | first moment from F 8.294667  predicted 8.326054
+  s0=5: leak 3.15453e-12  exact 3.15787e-12  rel.diff -1.06e-03 | first moment from F 10.345768  predicted 10.407567
+
+delta scan: 4 / sum_j int z' A_j^2 and mass outside the component of x*
+  delta=0.5: 4/<z'> = 0.41580  mass outside = 8.371e-03
+  delta=0.25: 4/<z'> = 0.44744  mass outside = 2.237e-03
+  delta=0.1: 4/<z'> = 0.45660  mass outside = 3.637e-04
+  delta=0.05: 4/<z'> = 0.45792  mass outside = 9.112e-05
+
+companion test, s0 = 4, delta = 1
+  with companion 1.6898e-09, without 1.7570e-07, ratio 104.0

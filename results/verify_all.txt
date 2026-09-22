@@ -1,0 +1,61 @@
+OK   | kappa(K_0.2) (Intro, Prop. C example)                                   | quoted 0.917        | computed 0.917
+OK   | Prop. C closed form vs numerical minimum, r=0.2                         | quoted equal        | computed -1.1e-16
+OK   | Prop. C closed form vs numerical minimum, r=0.05                        | quoted equal        | computed 0.0e+00
+OK   | Prop. C closed form vs numerical minimum, r=0.5                         | quoted equal        | computed -1.1e-16
+OK   | Prop. C closed form vs numerical minimum, r=0.9                         | quoted equal        | computed 9.2e-16
+OK   | kappa(K_r)/(1-r) -> 1 as r -> 1 (Intro)                                 | quoted 1            | computed 1.0
+OK   | kappa(K_r) -> 2 as r -> 0 (Intro)                                       | quoted 2            | computed 2.0
+OK   | Prop. C maximizer x = ((r^2+sqrt r)/(1+sqrt r))^(1/2), r=0.2            | quoted 0.580221     | computed 0.580221
+OK   | Cor. B(iii) max|I_j| < kappa(K) <= |hull K| on 200 random sets          | quoted holds        | computed 0 violations
+OK   | r_0 = 0.0886...                                                         | quoted 0.0886       | computed 0.0886
+OK   | kappa(K) for (0,0.4)u(0.6,1)                                            | quoted 0.4584       | computed 0.4584
+OK   | maximizer x* in (0,0.4)                                                 | quoted 0.2099       | computed 0.2099
+OK   | second maximizer 1 - x* (symmetric set)                                 | quoted 0.7901       | computed 0.7901
+OK   | partner of x*                                                           | quoted 0.6723       | computed 0.6723
+OK   | kappa_1 = 1/(2 pi a*)                                                   | quoted 1.389        | computed 1.389
+OK   | W^T W = I to 1e-15 (n = 2, 3, 4)                                        | quoted 1e-15        | computed 1.6e-15
+OK   | number of bump test functions                                           | quoted 16           | computed 16
+OK   | U preserves the norm to six digits                                      | quoted 6 digits     | computed 0.0e+00
+OK   | t-grid captures the mass to seven digits                                | quoted 7 digits     | computed 0.0e+00
+OK   | leak vs int m dnu, all cases within 3.3 per cent                        | quoted 3.3          | computed 3.22
+OK   | leak vs int m dnu within 1.2 per cent                                   | quoted 13 of 16     | computed 13 of 16
+OK   | bumps below 2e-7 of their maximum at the endpoints                      | quoted 2e-7         | computed 1.7e-07
+OK   | D - kappa_1 <Lambda^+> positive in every case                           | quoted > 0          | computed min +0.0507
+OK   | D/<Lambda^+> for the bump at x=0.2, frequency 20                        | quoted 1.416        | computed 1.416
+OK   | one and two bumps: difference grows with frequency, 0.4 to 3.2 per cent | quoted 0.4 to 3.2   | computed 0.4 to 3.2
+OK   | random-frequency families below 0.5 per cent                            | quoted 0.5          | computed 0.46
+OK   | packet leak vs exact Gaussian value, within 0.11 per cent               | quoted 0.11         | computed 0.106
+OK   | first moment from F vs Lemma 4.1(ii), within 0.6 per cent               | quoted 0.6          | computed 0.59
+OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4158       | computed 0.4158
+OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4474       | computed 0.4474
+OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4566       | computed 0.4566
+OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4579       | computed 0.4579
+OK   | mass outside I_l scales as delta^2                                      | quoted 2            | computed 1.97
+OK   | leak with companion, s0=4, delta=1                                      | quoted 1.69e-09     | computed 1.69e-09
+OK   | leak without companion                                                  | quoted 1.76e-07     | computed 1.76e-07
+OK   | ratio (more than two orders of magnitude)                               | quoted 104          | computed 104
+OK   | Table: max|I_j| for [0,.6]                                              | quoted 0.6          | computed 0.6
+OK   | Table: kappa(K) for [0,.6]                                              | quoted 0.6          | computed 0.6
+OK   | Table: kappa_eff m=2^8 for [0,.6]                                       | quoted 0.6016       | computed 0.6016
+OK   | Table: kappa_eff m=2^16 for [0,.6]                                      | quoted 0.6          | computed 0.6
+OK   | Table: max|I_j| for [0,.4]u[.6,1]                                       | quoted 0.4          | computed 0.4
+OK   | Table: kappa(K) for [0,.4]u[.6,1]                                       | quoted 0.458        | computed 0.458
+OK   | Table: kappa_eff m=2^8 for [0,.4]u[.6,1]                                | quoted 0.4667       | computed 0.4667
+OK   | Table: kappa_eff m=2^16 for [0,.4]u[.6,1]                               | quoted 0.4559       | computed 0.4559
+OK   | Table: max|I_j| for [0,.45]u[.55,1]                                     | quoted 0.45         | computed 0.45
+OK   | Table: kappa(K) for [0,.45]u[.55,1]                                     | quoted 0.571        | computed 0.571
+OK   | Table: kappa_eff m=2^8 for [0,.45]u[.55,1]                              | quoted 0.5693       | computed 0.5693
+OK   | Table: kappa_eff m=2^16 for [0,.45]u[.55,1]                             | quoted 0.5533       | computed 0.5533
+OK   | Table: max|I_j| for [0,.7]u[.8,1]                                       | quoted 0.7          | computed 0.7
+OK   | Table: kappa(K) for [0,.7]u[.8,1]                                       | quoted 0.802        | computed 0.802
+OK   | Table: kappa_eff m=2^8 for [0,.7]u[.8,1]                                | quoted 0.7471       | computed 0.7471
+OK   | Table: kappa_eff m=2^16 for [0,.7]u[.8,1]                               | quoted 0.752        | computed 0.752
+OK   | at m=2^16, 0.5 to 6.2 per cent below kappa(K)                           | quoted 0.5 to 6.2   | computed 0.55 to 6.22
+OK   | at m=2^8, 1.8 per cent above kappa(K) for the first set                 | quoted 1.8          | computed 1.8
+OK   | c_K (three sets) and c = 1/4 (interval)                                 | quoted 0.385        | computed 0.385
+OK   | c_K (three sets) and c = 1/4 (interval)                                 | quoted 0.552        | computed 0.552
+OK   | c_K (three sets) and c = 1/4 (interval)                                 | quoted 0.505        | computed 0.505
+OK   | c_K (three sets) and c = 1/4 (interval)                                 | quoted 0.25         | computed 0.25
+OK   | slope 40 to 61 per cent of the packet slope                             | quoted 40 to 61     | computed 40 to 61
+
+59 checks, 0 FAIL

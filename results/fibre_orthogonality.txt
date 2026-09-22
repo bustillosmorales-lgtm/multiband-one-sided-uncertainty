@@ -1,0 +1,6 @@
+n=2            Hollands (73): max |WW^T/c - I| = 1.1e-15   c = WW^T[0,0] = 1.000000
+n=2  CH (37)/sqrt(pi)... raw: max |WW^T/c - I| = 1.0e-15   c = WW^T[0,0] = 0.159155
+n=3            Hollands (73): max |WW^T/c - I| = 8.9e-16   c = WW^T[0,0] = 1.000000
+n=3  CH (37)/sqrt(pi)... raw: max |WW^T/c - I| = 1.1e-15   c = WW^T[0,0] = 0.159155
+n=4            Hollands (73): max |WW^T/c - I| = 1.6e-15   c = WW^T[0,0] = 1.000000
+n=4  CH (37)/sqrt(pi)... raw: max |WW^T/c - I| = 1.6e-15   c = WW^T[0,0] = 0.159155
