@@ -1,4 +1,4 @@
-"""Packets of the sharpness section (Lemma 4.1) computed in the variable zeta (the numerical section).
+"""Packets of the sharpness section (Lemma 5.1) computed in the variable zeta (the numerical section).
 
 K = (0,0.4) u (0.6,1).  phi = V^{-1} W^T psi, psi = g(zeta) e^{-i s0 zeta} v, v = W(zeta0) e_l.
 Quadrature in zeta (uniform step h), which resolves the packet near the endpoints, unlike the

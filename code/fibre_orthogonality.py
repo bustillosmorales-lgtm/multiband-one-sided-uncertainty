@@ -1,4 +1,4 @@
-"""Orthogonality of the fibre matrix W(zeta) of Section 2 (Lemma 2.2).
+"""Orthogonality of the fibre matrix W(zeta) of Section 3 (Lemma 3.2).
 W_{km}(z) = Theta_m q_k(x_m) / (N_k sqrt(|prod(x_m-a)(x_m-b)|) sqrt(z'(x_m))),  q_k = prod_{i!=k}(x-a_i),
 x_m(z) the preimage of z in component m.  Claim: W(z) orthogonal for all z (=> the CH transform is unitary).
 Compares the normalizations N_k of Casini--Huerta (37) and Hollands (73); the article uses the latter.

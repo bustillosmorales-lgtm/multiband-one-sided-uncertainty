@@ -1,0 +1,47 @@
+
+=== 0  pi2k=9.870 pi2max=9.870  degrees: [(50, np.float64(5.0)), (80, np.float64(8.2)), (120, np.float64(11.7)), (160, np.float64(11.6))]
+  D:         2.0    3.0    4.0    5.0    6.0    7.0    8.0    9.0   10.0   11.0
+  |dy|hi-lo:  0.012  0.024  0.044  0.082  0.143  0.235  0.370  0.547  0.784  1.084
+  local slopes (window 1.5), three highest degrees that cover D, and geometric extrapolation in the degree:
+   D= 3.0 deg80: 8.274 deg120: 8.323 deg160: 8.338 r= 0.30 ext= 8.345 ext/pi2k=0.845 ext/pi2max=0.845 gap%= -inf
+   D= 4.0 deg80: 8.471 deg120: 8.555 deg160: 8.584 r= 0.34 ext= 8.598 ext/pi2k=0.871 ext/pi2max=0.871 gap%= -inf
+   D= 5.0 deg80: 8.539 deg120: 8.679 deg160: 8.727 r= 0.35 ext= 8.753 ext/pi2k=0.887 ext/pi2max=0.887 gap%= -inf
+   D= 6.0 deg80: 8.522 deg120: 8.733 deg160: 8.808 r= 0.36 ext= 8.849 ext/pi2k=0.897 ext/pi2max=0.897 gap%= -inf
+   D= 7.0 deg80: 8.436 deg120: 8.744 deg160: 8.855 r= 0.36 ext= 8.918 ext/pi2k=0.904 ext/pi2max=0.904 gap%= -inf
+   D= 8.0 deg80: 8.324 deg120: 8.715 deg160: 8.871 r= 0.40 ext= 8.973 ext/pi2k=0.909 ext/pi2max=0.909 gap%= -inf
+
+=== A  pi2k=6.833 pi2max=5.640  degrees: [(50, np.float64(13.1)), (80, np.float64(12.4)), (120, np.float64(9.6)), (160, np.float64(12.1))]
+  D:         2.0    3.0    4.0    5.0    6.0    7.0    8.0    9.0
+  |dy|hi-lo:  0.001  0.001  0.024  0.037  0.058  0.089  0.133  0.189
+  local slopes (window 1.5), three highest degrees that cover D, and geometric extrapolation in the degree:
+   D= 3.0 deg80: 5.019 deg120: 5.193 deg160: 5.200 r= 0.04 ext= 5.200 ext/pi2k=0.761 ext/pi2max=0.922 gap%= -7.8
+   D= 4.0 deg80: 5.345 deg120: 5.365 deg160: 5.375 r= 0.48 ext= 5.383 ext/pi2k=0.788 ext/pi2max=0.954 gap%= -4.6
+   D= 5.0 deg80: 5.530 deg120: 5.578 deg160: 5.594 r= 0.32 ext= 5.601 ext/pi2k=0.820 ext/pi2max=0.993 gap%= -0.7
+   D= 6.0 deg80: 5.636 deg120: 5.709 deg160: 5.734 r= 0.34 ext= 5.747 ext/pi2k=0.841 ext/pi2max=1.019 gap%=  1.9
+   D= 7.0 deg80: 5.689 deg120: 5.790 deg160: 5.831 r= 0.40 ext= 5.859 ext/pi2k=0.857 ext/pi2max=1.039 gap%=  3.9
+   D= 8.0 deg80: 5.705 deg120: 5.841 deg160: 5.890 r= 0.36 ext= 5.917 ext/pi2k=0.866 ext/pi2max=1.049 gap%=  4.9
+   D= 9.0 deg80: 5.692 deg120: 5.865 deg160: 5.934 r= 0.40 ext= 5.981 ext/pi2k=0.875 ext/pi2max=1.060 gap%=  6.0
+   D=10.0 deg50: 5.122 deg80: 5.654 deg160: 5.964 r= 0.58 ext= 6.395 ext/pi2k=0.936 ext/pi2max=1.134 gap%= 13.4
+   D=11.0 deg50: 4.874 deg80: 5.590 deg160: 5.978 r= 0.54 ext= 6.436 ext/pi2k=0.942 ext/pi2max=1.141 gap%= 14.1
+   D=12.0 deg50: 4.709 deg80: 5.532 deg160: 5.982 r= 0.55 ext= 6.526 ext/pi2k=0.955 ext/pi2max=1.157 gap%= 15.7
+
+=== B  pi2k=4.386 pi2max=3.290  degrees: [(50, np.float64(20.8)), (80, np.float64(15.3)), (100, np.float64(15.2))]
+  D:         2.0    3.0    4.0    5.0    6.0    7.0    8.0    9.0   10.0   11.0   12.0   13.0   14.0   15.0
+  |dy|hi-lo:  0.003  0.003  0.003  0.029  0.039  0.053  0.071  0.090  0.125  0.158  0.207  0.267  0.329  0.406
+  local slopes (window 1.5), three highest degrees that cover D, and geometric extrapolation in the degree:
+   D= 5.0 deg50: 3.109 deg80: 3.160 deg100: 3.169 r= 0.17 ext= 3.170 ext/pi2k=0.723 ext/pi2max=0.964 gap%= -1.2
+   D= 6.0 deg50: 3.219 deg80: 3.263 deg100: 3.273 r= 0.22 ext= 3.276 ext/pi2k=0.747 ext/pi2max=0.996 gap%= -0.1
+   D= 7.0 deg50: 3.304 deg80: 3.359 deg100: 3.374 r= 0.26 ext= 3.379 ext/pi2k=0.770 ext/pi2max=1.027 gap%=  0.9
+   D= 8.0 deg50: 3.352 deg80: 3.429 deg100: 3.447 r= 0.22 ext= 3.452 ext/pi2k=0.787 ext/pi2max=1.049 gap%=  1.6
+   D= 9.0 deg50: 3.370 deg80: 3.479 deg100: 3.504 r= 0.23 ext= 3.511 ext/pi2k=0.801 ext/pi2max=1.067 gap%=  2.2
+   D=10.0 deg50: 3.380 deg80: 3.514 deg100: 3.548 r= 0.25 ext= 3.559 ext/pi2k=0.811 ext/pi2max=1.082 gap%=  2.7
+   D=11.0 deg50: 3.380 deg80: 3.537 deg100: 3.580 r= 0.28 ext= 3.596 ext/pi2k=0.820 ext/pi2max=1.093 gap%=  3.1
+   D=12.0 deg50: 3.366 deg80: 3.557 deg100: 3.607 r= 0.26 ext= 3.624 ext/pi2k=0.826 ext/pi2max=1.102 gap%=  3.4
+
+=== FIT slope(D)=s - c*D^(-p) on the extrapolated slope ===
+0: D in [4.5,8.5] p=0.5: s=9.859 c=2.489  s/pi2k=0.999 s/pi2max=0.999
+0: D in [4.5,8.5] p=1.0: s=9.358 c=3.065  s/pi2k=0.948 s/pi2max=0.948
+A: D in [4.5,9.0] p=0.5: s=7.137 c=3.427  s/pi2k=1.044 s/pi2max=1.265
+A: D in [4.5,9.0] p=1.0: s=6.459 c=4.280  s/pi2k=0.945 s/pi2max=1.145
+B: D in [5.0,12.5] p=0.5: s=4.477 c=2.922  s/pi2k=1.021 s/pi2max=1.361
+B: D in [5.0,12.5] p=1.0: s=3.960 c=4.050  s/pi2k=0.903 s/pi2max=1.204

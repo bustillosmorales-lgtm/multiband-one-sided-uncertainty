@@ -114,7 +114,7 @@ t = open(RES + "packets.txt").read()
 lk = [abs(float(x)) for x in re.findall(r"rel\.diff ([+-][\d.e+-]+)", t)]
 check("packet leak vs exact Gaussian value, within 0.11 per cent", 0.11, round(100 * max(lk), 3), 100 * max(lk) <= 0.11)
 fm = [abs(float(a) / float(b) - 1) for a, b in re.findall(r"first moment from F ([\d.]+)\s+predicted ([\d.]+)", t)]
-check("first moment from F vs Lemma 4.1(ii), within 0.6 per cent", 0.6, round(100 * max(fm), 2), 100 * max(fm) <= 0.6)
+check("first moment from F vs Lemma 5.1(ii), within 0.6 per cent", 0.6, round(100 * max(fm), 2), 100 * max(fm) <= 0.6)
 sc = [float(x) for x in re.findall(r"4/<z'> = ([\d.]+)", t)]
 for q, c in zip((0.4158, 0.4474, 0.4566, 0.4579), sc):
     check("4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)", q, round(c, 4), rounds(c, q, 4))

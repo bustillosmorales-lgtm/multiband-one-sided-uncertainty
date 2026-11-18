@@ -1,4 +1,4 @@
-"""Leak identity (Lemma 2.3) and moment bound (Proposition 3.1) on 16 bump test functions (the numerical section).
+"""Leak identity (Lemma 3.3) and moment bound (Proposition 4.1) on 16 bump test functions (the numerical section).
 Every bump is negligible at the endpoints of K
 (value below 1e-6), so that the test functions behave as elements of C_c^infty(K) and F decays fast.
 Positive frequencies only (small leak).  t in [-150,150].  Run from code/:

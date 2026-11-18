@@ -25,7 +25,7 @@ OK   | D/<Lambda^+> for the bump at x=0.2, frequency 20                        |
 OK   | one and two bumps: difference grows with frequency, 0.4 to 3.2 per cent | quoted 0.4 to 3.2   | computed 0.4 to 3.2
 OK   | random-frequency families below 0.5 per cent                            | quoted 0.5          | computed 0.46
 OK   | packet leak vs exact Gaussian value, within 0.11 per cent               | quoted 0.11         | computed 0.106
-OK   | first moment from F vs Lemma 4.1(ii), within 0.6 per cent               | quoted 0.6          | computed 0.59
+OK   | first moment from F vs Lemma 5.1(ii), within 0.6 per cent               | quoted 0.6          | computed 0.59
 OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4158       | computed 0.4158
 OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4474       | computed 0.4474
 OK   | 4/sum_j int z' A_j^2 (delta = 0.5, 0.25, 0.1, 0.05)                     | quoted 0.4566       | computed 0.4566
